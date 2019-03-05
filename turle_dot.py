@@ -1,3 +1,5 @@
+# drawing dots
+
 import turtle
 turtle.shape("turtle")
 turtle.color("red")
