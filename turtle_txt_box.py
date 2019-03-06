@@ -1,4 +1,4 @@
-# taking input by turtle text box and tell greeting based on name title.
+# taking input by turtle text box and will tell greeting based on name title.
 
 import turtle
 name = turtle.textinput("Name", "What's your name?")
