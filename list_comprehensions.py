@@ -2,5 +2,5 @@
 
 list = [1, 2, 10, 12, 15]
 new_li = []
-new_li = [x ** x for x in list]
+new_li = [x ** 2 for x in list]
 print(new_li)
