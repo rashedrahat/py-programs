@@ -1,4 +1,4 @@
-# a program that will find how many total number of district, upazila and union are in each division of Bangladesh.
+# a program that will find how many total number of district, upazila and union are in Bangladesh.
 
 bd_div_info = {}
 bd_div_info["Barishal"] = {"district": 6, "upazila": 39, "union": 333}
