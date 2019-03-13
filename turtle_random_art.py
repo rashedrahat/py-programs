@@ -1,4 +1,4 @@
-# a program that draw line-dot randomly and print the random position of all the dots. 
+# a program that draws lines and dots randomly and prints the random position of all the dots. 
 
 import turtle
 import random
