@@ -1,4 +1,4 @@
-# a program that will show the difference between functions. Which one is more faster?
+# a program that will show the difference between functions. Which one is more faster for a same specific task-indicates a number that is prime or not?
 
 import math
 
@@ -37,4 +37,4 @@ def is_prime2(num = 1013):
 import timeit
 t1 = timeit.timeit(is_prime1)
 t2 = timeit.timeit(is_prime2)
-print(t1, t2, "time diff:", t1 / t2, "X")
+print("Func1:", t1, "Func2:", t2, "& time diff:", t1 / t2, "X")
