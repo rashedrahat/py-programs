@@ -37,4 +37,4 @@ def is_prime2(num = 1013):
 import timeit
 t1 = timeit.timeit(is_prime1)
 t2 = timeit.timeit(is_prime2)
-print("Func1:", t1, "Func2:", t2, "& time diff:", t1 / t2, "X")
+print("Func1:", t1, ", Func2:", t2, "& their time diff:", t1 / t2, "X")
