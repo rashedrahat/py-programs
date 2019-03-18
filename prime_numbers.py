@@ -1,4 +1,4 @@
-# a program that will print all the prime numbers between a given range
+# a program that will print all the prime numbers between a given range.
 
 lower = int(input("Enter lower range: "))  
 upper = int(input("Enter upper range: "))  
