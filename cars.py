@@ -28,7 +28,7 @@ class Car:
 car1 = Car("Mercedes-Benz SLS AMG", "Mercedes-Benz", "Grey", 2010, 6208)
 car2 = Car("BMW 8-series (G14)", "BMW", "Red", 2018, "N/A")
 
-# showing the attributes and behaviours of Car objects
+# showing the attributes and behavior of Car objects
 print("Car details")
 print("-----------")
 print("Car name:", car1.name)
