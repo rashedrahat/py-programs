@@ -1,11 +1,15 @@
-# a program that downloads and saves image from web into your computer.
+# a program that downloads and saves image from web into your computer through command line argument.
 
 import requests
-url = "https://avatars1.githubusercontent.com/u/37572137?s=460&v=4"
+import sys
+
+url = sys.argv[1]
+file_name = sys.argv[2]
 res = requests.get(url)
+
 if res.status_code == 200:
-    with open("RashedRahat.png", "wb") as f:
+    with open(file_name, "wb") as f:
         f.write(res.content)
-        print("File downloaded! Open 'RashedRahat.png' file.")
+        print("File downloaded! Open", file_name, "file.")
 else:
     print("Invalid request!\nNot Found")
